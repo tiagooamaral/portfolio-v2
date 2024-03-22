@@ -21,15 +21,15 @@ jobs:
       
     - name: Build Project
       run: |
-        npm install
+        npm install --legacy-peer-deps
         npm run build
         npm run export
     
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftp.webne.com.br
-        username: "webne"
+        server: ${{ secrets.LOCAWEB_FTP_SERVER }}
+        username: ${{ secrets.LOCAWEB_FTP_USERNAME }}
         password: ${{ secrets.LOCAWEB_FTP_PASSWORD }}
         local-dir: ${{ github.workspace }}/out/
-        server-dir: public_html/tiagooamaral/
+        server-dir: ${{ secrets.LOCAWEB_FTP_DIR }}
