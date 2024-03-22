@@ -42,17 +42,17 @@ class Resume extends Component {
           {isExpanded ? (
             <div>
               <p>{education.description}
-                <a href="javascript:void(0)" style={{ float: "right", marginRight: "15px" }}>
+                <button style={{ float: "right", marginRight: "15px" }}>
                   <ExpandMoreIcon style={{ transform: "rotate(180deg)" }} onClick={() => this.props.toggleExpandedEducation(index)} />
-                </a>
+                </button>
               </p>
             </div>
           ) : (
             <div>
               <p>{education.description.slice(0, 100)}...
-                <a href="javascript:void(0)" style={{ float: "right", marginRight: "15px" }}>
+                <button style={{ float: "right", marginRight: "15px" }}>
                   <ExpandMoreIcon onClick={() => this.props.toggleExpandedEducation(index)} />
-                </a>
+                </button>
               </p>
             </div>
           )}
@@ -73,17 +73,17 @@ class Resume extends Component {
           {isExpanded ? (
             <div>
               <p>{work.description}
-                <a style={{ float: "right", marginRight: "15px" }}>
+                <button style={{ float: "right", marginRight: "15px" }}>
                   <ExpandMoreIcon style={{ transform: "rotate(180deg)" }} onClick={() => this.props.toggleExpanded(index)} />
-                </a>
+                </button>
               </p>
             </div>
           ) : (
             <div>
               <p>{work.description.slice(0, 100)}...
-                <a style={{ float: "right", marginRight: "15px" }}>
+                <button style={{ float: "right", marginRight: "15px" }}>
                   <ExpandMoreIcon onClick={() => this.props.toggleExpanded(index)} />
-                </a>
+                </button>
               </p>
             </div>
           )}
