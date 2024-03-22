@@ -1,0 +1,148 @@
+{
+  "main": {
+    "name": "Tiago Amaral",
+    "description": "Eu sou um desenvolvedor de software. Aqui você encontra um pouco mais sobre mim e meus projetos",
+    "image": "profilepic.jpg",
+    "bio": "Sou um profissional de tecnologia com experiência em front-end e back-end. Estou sempre em busca de novos desafios e oportunidades para aplicar meu conhecimento e oferecer soluções eficientes. Se desejar entrar em contato comigo, fique à vontade para enviar um e-mail. Agradeço pela atenção e estou ansioso para discutir e colaborar na área de tecnologia!",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "tglamaral@gmail.com",
+    "phone": "+55 (11) 94326-4263",
+    "github": "https://github.com/tiagooamaral",
+    "project": "",
+    "address": {
+      "street": "",
+      "city": "Porto Alegre - ",
+      "state": "Rio Grande do Sul",
+      "zip": "Brasil"
+    },
+    "website": "http://www.tiagooamaral.com.br",
+    "resumedownload": "/profile.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tiagooamaral/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/tiagooamaral/",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": {
+      "curse": [
+        {
+          "school": "Udemy",
+          "degree": " PHP 7 Completo - Curso do Desenvolvedor Web + Projetos",
+          "graduated": "27 de Junho de 2023",
+          "description": "O básico da linguagem como sintaxe e os tipos, conhecer as estruturas lógicas e de repetição, como criar funções e trabalhar no contexto orientado à objetos. Com a base definida vamos apresentar conceitos mais avançados como cookies, sessões, integração com banco de dados. Para finalizar, teremos um projeto real de controle de ponto, para exercitar os conhecimentos adquiridos em uma aplicação aplicável ao mundo real, com layout moderno e profissional.",
+          "link": "https://www.udemy.com/certificate/UC-e9ca533c-63b9-40b5-a20c-edaa24864e7b/"
+        }
+      ],
+      "formation": [
+        {
+          "school": "UniRitter",
+          "degree": "Engenharia da Computação",
+          "graduated": "jan. de 2023 - jan. de 2027",
+          "description": "."
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "Guarida Imóveis",
+        "title": "Desenvolvedor de Software",
+        "years": "out de 2022 - o momento · 1 ano 6 meses",
+        "location": "Porto Alegre, Rio Grande do Sul, Brasil · Híbrida",
+        "description": "Realização de manutenção, correção de bugs e desenvolvimento de melhorias em projetos desenvolvidos em C# (.NET Framework), TypeScript (React e Next), PHP, JavaScript e jQuery. Utilização de tecnologias avançadas como Docker, Kubernetes e GCP (Google Cloud Platform) para facilitar a manutenção e escalabilidade de aplicativos em ambientes de produção. Manutenção e otimização de bancos de dados MySQL e PostgreSQL para garantir o desempenho e integridade dos dados. Implementação de melhorias e ajustes nas funcionalidades dos aplicativos, garantindo uma experiência positiva para os usuários. Identificação e correção de problemas de segurança, como vulnerabilidades e falhas de autenticação. Utilização do ambiente de virtualização Docker para facilitar a manutenção e implantação de projetos. Gerenciamento e monitoramento de aplicativos em ambientes distribuídos usando o orquestrador de contêineres Kubernetes. Utilização da Google Cloud Platform (GCP) para hospedagem e gerenciamento de projetos de manutenção."
+      },
+      {
+        "company": "Simplo7",
+        "title": "Analista de Suporte Computacional - Nível 3",
+        "years": "jul de 2022 - set de 2022 · 3 meses",
+        "location": "Canoas, Rio Grande do Sul, Brasil",
+        "description": "Responsável pela manutenção de código e correção de bugs em PHP utilizando CakePHP, garantindo a estabilidade e funcionamento adequado dos sistemas. Realização da manutenção e desenvolvimento de código em JavaScript e jQuery, focado na implementação de funcionalidades e ajustes visuais na plataforma. Realização de modelagem e manutenção de banco de dados, assegurando a integridade e eficiência das informações. Análise de logs extensivos para identificação e solução de problemas, especialmente devido à grande quantidade de lojas e integrações presentes no sistema. Isso envolveu a utilização de GrayLog e ElasticSearch para análise e monitoramento avançado de logs. Realização de análises de requisições API, tanto em integrações com outras plataformas quanto na própria API do sistema, utilizando JSON e REST como formatos de comunicação. Implementação de alterações visuais na loja do cliente, utilizando HTML, CSS, JavaScript e jQuery, visando proporcionar uma experiência atraente e intuitiva aos usuários. Auxílio aos atendentes de Nível 2 sobre a aplicação, incluindo análise aprofundada de logs, extração de informações relevantes via banco de dados e realização de ajustes visuais na aplicação. Auxílio aos atendentes de Nível 1, fornecendo suporte e esclarecendo dúvidas relacionadas à plataforma de e-commerce da empresa."
+      },
+      {
+        "company": "Simplo7",
+        "title": "Analista de Suporte Computacional - Nível 1",
+        "years": "out de 2021 - jul de 2022 · 10 meses",
+        "location": "Canoas",
+        "description": "Realização de ajustes visuais básicos na loja do cliente, utilizando HTML, CSS e JavaScript para melhorar a aparência e usabilidade. Análise de logs de forma abrangente, visando identificar e solucionar problemas em diferentes áreas do sistema. Realização de alterações básicas no banco de dados, como consultas e atualizações, para atender às necessidades específicas do cliente. Realização de análises de requisições API, garantindo a integração correta e eficiente entre diferentes sistemas e serviços. Fornecimento de suporte técnico aos clientes por meio de atendimento telefônico e via e-mail, solucionando dúvidas e problemas relacionados à plataforma de e-commerce da empresa. Identificação e análise de erros de DNS no registro do cliente, auxiliando na resolução de problemas de acesso ao site. Identificação e análise de erros de configurações de e-mail e servidores SMTP, garantindo o correto funcionamento do serviço de envio de e-mails."
+      },
+      {
+        "company": "Asset Patrimonial e Informática LTDA",
+        "title": "Desenvolvimento de Web Design",
+        "years": "mai de 2020 - jan de 2021 · 9 meses",
+        "location": "São Paulo, Brasil · Presencial",
+        "description": "Responsável pela manutenção e desenvolvimento de software desenvolvidos em Delphi, assegurando a funcionalidade e melhoria contínua dos sistemas. Manutenção do site da empresa desenvolvido em WordPress, garantindo sua funcionalidade, segurança e atualizações regulares. Criação de um formulário de contato para o site, facilitando a interação com os visitantes. Implementação do reCAPTCHA para aumentar a segurança nos cadastros e proteger contra spam e bots. Instalação, administração e manutenção da ferramenta de Gerenciamento de TI (Help Desk), proporcionando suporte eficiente e organizado para a equipe e usuários. Administração do Marketing Digital, gerenciando estratégias e campanhas para promover a empresa e seus produtos/serviços. Criação e desenvolvimento de material publicitário, incluindo vídeos, imagens, textos e anúncios, para aumentar a visibilidade e atrair o público-alvo. Realização de melhorias visuais nos textos, imagens e layout do site, garantindo uma apresentação atrativa e profissional. Criação de um blog para fornecer conteúdo relevante e informativo aos visitantes do site."
+      },
+      {
+        "company": "Integrade",
+        "title": "Analista de Infraestrutura",
+        "years": "ago de 2019 - mai de 2020 · 10 meses",
+        "location": "São Paulo, São Paulo, Brasil · Presencial",
+        "description": "Responsável pela instalação, manutenção, controle e gerenciamento dos seguintes serviços: Redes internas, garantindo a conectividade e segurança dos sistemas. Servidores de aplicação, dados, desenvolvimento e segurança, assegurando o bom funcionamento e disponibilidade dos serviços. Gerenciamento de hardware e software, incluindo a gestão de licenças necessárias. Administração de bancos de dados, garantindo a integridade e performance dos sistemas, com enfoque nos bancos Oracle e Firebird. Configuração e manutenção de acesso externo à rede corporativa, garantindo a segurança e disponibilidade dos recursos. Implementação de estratégias de backup e versionamento das tecnologias utilizadas. Suporte técnico à equipe interna e externa, fornecendo assistência e solucionando problemas relacionados aos sistemas e infraestrutura. Desenvolvimento e manutenção de sistemas Desktop e Mobile, utilizando as linguagens Delphi, Java (Android Studio), bem como projetos de novas aplicações em Kotlin. Garantia da funcionalidade, escalabilidade e usabilidade das aplicações desenvolvidas. Realização de testes de performance e capacidade, avaliação da interface e funcionalidade das aplicações desenvolvidas para garantir a qualidade e eficiência dos sistemas. Gerenciamento da microinformática. Administração do banco de dados Oracle e Firebird, garantindo a consistência, integridade e segurança dos dados. Manutenção do site da empresa, desenvolvido em WordPress, assegurando sua funcionalidade, segurança e atualizações regulares."
+      },
+      {
+        "company": "Webplanet Serviços de Informática LTDA",
+        "title": "Analista de Negócios em TI",
+        "years": "set de 2017 - ago de 2019 · 2 anos",
+        "location": "São Paulo, São Paulo, Brasil · Remota",
+        "description": "Responsável por instalação, manutenção, controle e gerenciamento dos seguintes serviços: Redes internas, garantindo a conectividade e segurança dos sistemas. Servidores de aplicação, dados, desenvolvimento e segurança, assegurando o bom funcionamento e disponibilidade dos serviços. Implantação e administração de servidores, utilizando a plataforma VMware ESX para otimizar recursos e garantir alta disponibilidade. Gerenciamento de hardware e software, incluindo a gestão de licenças necessárias. Administração de bancos de dados, garantindo a integridade e performance dos sistemas, com foco no banco de dados Firebird. Configuração e manutenção de acesso externo à rede corporativa, garantindo a segurança e disponibilidade dos recursos. Implementação de estratégias de backup e versionamento das tecnologias utilizadas. Desenvolvimento e manutenção de sistemas em Delphi, garantindo a funcionalidade e escalabilidade dos aplicativos. Oferecimento de suporte técnico aos clientes através de atendimento telefônico e e-mail, solucionando problemas e fornecendo orientações. Auxílio em dúvidas relacionadas ao sistema ERP e PDV da empresa desenvolvidos em Delphi, garantindo o pleno funcionamento e utilização adequada dessas ferramentas. Realização de análise de logs, identificando e resolvendo problemas para otimizar o desempenho dos sistemas. Realização de alterações no banco de dados Firebird, garantindo a consistência e integridade dos dados. Manutenção do site da empresa, desenvolvido em WordPress, assegurando sua funcionalidade, segurança e atualizações regulares. Instalação, administração e manutenção da ferramenta de Gerenciamento de TI (Help Desk)."
+      }
+    ],
+    "skills": [
+      {
+        "name": "PHP",
+        "level": "80%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "80%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": ".NET",
+        "level": "50%"
+      },
+      {
+        "name": "Java",
+        "level": "50%"
+      },
+      {
+        "name": "Delphi",
+        "level": "30%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Convid4dos",
+        "category": "",
+        "image": "06.png",
+        "github": "https://github.com/tiagooamaral/Convid4dos"
+      },
+      {
+        "title": "ImageUpload",
+        "category": "",
+        "image": "05.png",
+        "github": "https://github.com/tiagooamaral/ImageUpload"
+      },
+      {
+        "title": "Portfolio-V1",
+        "category": "",
+        "image": "04.png",
+        "github": "https://github.com/tiagooamaral/portfolio",
+        "url": "https://develop.tiagooamaral.com.br/"
+      }
+    ]
+  }
+}
