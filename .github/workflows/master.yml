@@ -23,7 +23,6 @@ jobs:
       run: |
         npm install --legacy-peer-deps
         npm run build
-        npm run export
     
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -31,5 +30,5 @@ jobs:
         server: ${{ secrets.LOCAWEB_FTP_SERVER }}
         username: ${{ secrets.LOCAWEB_FTP_USERNAME }}
         password: ${{ secrets.LOCAWEB_FTP_PASSWORD }}
-        local-dir: ${{ github.workspace }}/out/
+        local-dir: ${{ github.workspace }}/build/
         server-dir: ${{ secrets.LOCAWEB_FTP_DIR }}
