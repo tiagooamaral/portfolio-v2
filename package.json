@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "chokidar": "^3.5.1"
+    "chokidar": "^3.5.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }

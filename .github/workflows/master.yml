@@ -14,14 +14,14 @@ jobs:
     - name: Get latest code
       uses: actions/checkout@v4
 
-    - name: Use Node.js 20
+    - name: Use Node.js 18
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: '18'
       
     - name: Build Project
       run: |
-        npm install --legacy-peer-deps
+        npm install
         npm run build
         npm run export
     

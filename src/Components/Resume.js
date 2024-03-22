@@ -1,7 +1,6 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import Slide from "react-reveal";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 class Resume extends Component {
   getRandomColor() {
@@ -15,8 +14,6 @@ class Resume extends Component {
 
   render() {
     if (!this.props.data) return null;
-    const { expanded, toggleExpanded } = this.props;
-    console.log(this);
 
     const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.formation.map(function (education) {
@@ -36,7 +33,7 @@ class Resume extends Component {
       const isExpanded = this.props.expandedEducation[index] || false;
       return (
         <div>
-          <a key={education.degree} style={{ color: "#000" }} href={education.link} target="_blank">
+          <a key={education.degree} style={{ color: "#000" }} href={education.link} target="_blank" rel="noreferrer">
             <h3>{education.degree}</h3>
             <p className="info">
               {education.school} <span>&bull;</span> <em className="date">{education.graduated}</em>
@@ -45,7 +42,7 @@ class Resume extends Component {
           {isExpanded ? (
             <div>
               <p>{education.description}
-                <a style={{ float: "right", marginRight: "15px" }}>
+                <a href="javascript:void(0)" style={{ float: "right", marginRight: "15px" }}>
                   <ExpandMoreIcon style={{ transform: "rotate(180deg)" }} onClick={() => this.props.toggleExpandedEducation(index)} />
                 </a>
               </p>
@@ -53,7 +50,7 @@ class Resume extends Component {
           ) : (
             <div>
               <p>{education.description.slice(0, 100)}...
-                <a style={{ float: "right", marginRight: "15px" }}>
+                <a href="javascript:void(0)" style={{ float: "right", marginRight: "15px" }}>
                   <ExpandMoreIcon onClick={() => this.props.toggleExpandedEducation(index)} />
                 </a>
               </p>
