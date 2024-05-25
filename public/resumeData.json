@@ -36,6 +36,13 @@
       "curse": [
         {
           "school": "Udemy",
+          "degree": " Curso Web API ASP .NET Core Essencial (.NET 8)",
+          "graduated": "24 de Abril de 2024",
+          "description": "O curso oferece uma abordagem abrangente para a criação de APIs REST na plataforma .NET usando ASP.NET Core. Serão explorados conceitos fundamentais como REST, JSON, HTTP e a criação de Web APIs no Visual Studio. Durante o curso, desenvolveremos Web APIs utilizando EF Core na abordagem Code-First, aplicando o Migrations. Também abordaremos conceitos essenciais como roteamento, filtros, métodos assíncronos, logging, tratamento de erros e paginação de dados. Além disso, aprenderemos sobre a implementação dos padrões Repository e Unit Of Work, bem como o uso do AutoMapper. No quesito segurança, o curso tratará da autenticação e autorização com JWT, incluindo login e registro. Vamos habilitar e configurar o CORS, realizar o versionamento das APIs e aprender a utilizar a Open API. Por fim, desenvolveremos aplicações que consomem Web APIs usando Angular, Windows Forms, OData e GraphQL.",
+          "link": "https://www.udemy.com/certificate/UC-e1103c00-9544-4821-9976-04a359fc2150/"
+        },
+        {
+          "school": "Udemy",
           "degree": " PHP 7 Completo - Curso do Desenvolvedor Web + Projetos",
           "graduated": "27 de Junho de 2023",
           "description": "O básico da linguagem como sintaxe e os tipos, conhecer as estruturas lógicas e de repetição, como criar funções e trabalhar no contexto orientado à objetos. Com a base definida vamos apresentar conceitos mais avançados como cookies, sessões, integração com banco de dados. Para finalizar, teremos um projeto real de controle de ponto, para exercitar os conhecimentos adquiridos em uma aplicação aplicável ao mundo real, com layout moderno e profissional.",
@@ -123,25 +130,100 @@
     ]
   },
   "portfolio": {
-    "projects": [
-      {
-        "title": "Convid4dos",
-        "category": "",
-        "image": "06.png",
-        "github": "https://github.com/tiagooamaral/Convid4dos"
-      },
-      {
-        "title": "ImageUpload",
-        "category": "",
-        "image": "05.png",
-        "github": "https://github.com/tiagooamaral/ImageUpload"
-      },
+    "projects": [     
       {
         "title": "Portfolio-V1",
-        "category": "",
+        "category": "HTML",
         "image": "04.png",
         "github": "https://github.com/tiagooamaral/portfolio",
         "url": "https://develop.tiagooamaral.com.br/"
+      },
+      {
+        "title": "Portfolio-V2",
+        "category": "React",
+        "image": "18.png",
+        "github": "https://github.com/tiagooamaral/portfolio-v2",
+        "url": "https://tiagooamaral.com.br/"
+      },
+      {
+        "title": "API-Newsletter",
+        "category": "PHP/Laravel",
+        "image": "16.png",
+        "github":"https://github.com/tiagooamaral/API-Newsletter.git"
+      },
+      {
+        "title": "Implantador",
+        "category": "PHP",
+        "image": "14.png",
+        "github": "https://github.com/alexandreberwanger/implantador/tree/tiago",
+        "url": "https://develop.tiagooamaral.com.br/implantador"
+      },
+      {
+        "title": "Plastseg",
+        "category": "NextJS",
+        "image": "19.png",
+        "url": "https://plastseg.com.br"
+      },
+      {
+        "title": "Gerenciar",
+        "category": "NextJS",
+        "image": "20.png"
+      },
+      {
+        "title": "Autenticação Alexa",
+        "category": "JavaScript",
+        "image": "17.png",
+        "github": "https://github.com/tiagooamaral/Auth-Alexa"
+      },
+      {
+        "title": "Teça",
+        "category": "PHP",
+        "image":"15.png",
+        "github": "https://github.com/beatriz-g-amaral/sistemabiblioteca"
+      },
+      {
+        "title": "Teacher Carol",
+        "category": "Landing Page",
+        "image": "07.png",
+        "url": "https://develop.tiagooamaral.com.br/borges-carol/"
+      },
+      {
+        "title": "Ultrasun",
+        "category": "Landing Page",
+        "image": "08.png",
+        "url": "https://develop.tiagooamaral.com.br/ultrasun/"
+      },
+      {
+        "title": "JPhone",
+        "category": "Landing Page",
+        "image": "09.png",
+        "url": "https://develop.tiagooamaral.com.br/jphone/"
+      },
+      {
+        "title": "Guia Norte",
+        "category": "Landing Page",
+        "image": "10.png",
+        "url": "https://develop.tiagooamaral.com.br/guia-norte/"
+      },
+      {
+        "title": "Target",
+        "category": "Landing Page",
+        "image": "11.png",
+        "url": "https://develop.tiagooamaral.com.br/target/"
+      },
+      {
+        "title": "Convid4dos",
+        "category": "Android/Java",
+        "image": "12.png",
+        "github": "https://github.com/tiagooamaral/Convid4dos",
+        "url": "/convid4dos.zip"
+      },
+      {
+        "title": "ImageUpload",
+        "category": "Android/Java",
+        "image": "13.png",
+        "github": "https://github.com/tiagooamaral/ImageUpload",
+        "url": "/imageUpload.zip"
       }
     ]
   }

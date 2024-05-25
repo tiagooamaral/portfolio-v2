@@ -13,8 +13,13 @@ class Portfolio extends Component {
       return (
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
-            <img alt={projects.title} src={projectImage} style={{ width: 250, height: 200 }} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
+            {(projects.image === "12.png" || projects.image === "13.png") ? (
+              <img alt={projects.title} src={projectImage} style={{ width: 120, height: 200 }} />
+            ) : (
+              <img alt={projects.title} src={projectImage} style={{ width: 250, height: 200 }} />
+            )}
+            <div style={{ fontWeight: "bolder", textAlign: "center", fontSize: "20px", marginTop: "10px" }}>{projects.title}</div>
+            <div style={{ textAlign: "center" }}>{projects.category}</div>
             <div style={{ textAlign: "center" }}>
               {projects.url && (
                 <a href={projects.url} className="button btn project-p-btn">

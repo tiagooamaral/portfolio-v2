@@ -437,6 +437,12 @@ ul#nav li.current a { color: #fe6928; }
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+   text-align: center;
+}
+div#portfolio-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 .portfolio-item .item-wrap a {
    display: block;

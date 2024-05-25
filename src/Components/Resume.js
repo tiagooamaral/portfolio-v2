@@ -42,17 +42,29 @@ class Resume extends Component {
           {isExpanded ? (
             <div>
               <p>{education.description}
-                <button style={{ float: "right", marginRight: "15px" }}>
-                  <ExpandMoreIcon style={{ transform: "rotate(180deg)" }} onClick={() => this.props.toggleExpandedEducation(index)} />
-                </button>
+                  <ExpandMoreIcon
+                    style={{
+                      transform: "rotate(180deg)",
+                      float: "right",
+                      fontSize: "2.5rem",
+                      marginRight: "15px",
+                      cursor: "pointer"
+                    }}
+                    onClick={() => this.props.toggleExpandedEducation(index)}
+                  />
               </p>
             </div>
           ) : (
             <div>
               <p>{education.description.slice(0, 100)}...
-                <button style={{ float: "right", marginRight: "15px" }}>
-                  <ExpandMoreIcon onClick={() => this.props.toggleExpandedEducation(index)} />
-                </button>
+                  <ExpandMoreIcon style={{
+                    float: "right",
+                    fontSize: "2.5rem",
+                    marginRight: "15px",
+                    cursor: "pointer"
+                  }}
+                    onClick={() => this.props.toggleExpandedEducation(index)}
+                  />
               </p>
             </div>
           )}
@@ -73,17 +85,30 @@ class Resume extends Component {
           {isExpanded ? (
             <div>
               <p>{work.description}
-                <button style={{ float: "right", marginRight: "15px" }}>
-                  <ExpandMoreIcon style={{ transform: "rotate(180deg)" }} onClick={() => this.props.toggleExpanded(index)} />
-                </button>
+                <ExpandMoreIcon
+                  style={{
+                    transform: "rotate(180deg)",
+                    float: "right",
+                    fontSize: "2.5rem",
+                    marginRight: "15px",
+                    cursor: "pointer"
+                  }}
+                  onClick={() => this.props.toggleExpanded(index)}
+                />
               </p>
             </div>
           ) : (
             <div>
               <p>{work.description.slice(0, 100)}...
-                <button style={{ float: "right", marginRight: "15px" }}>
-                  <ExpandMoreIcon onClick={() => this.props.toggleExpanded(index)} />
-                </button>
+                <ExpandMoreIcon
+                  style={{
+                    float: "right",
+                    fontSize: "2.5rem",
+                    marginRight: "15px",
+                    cursor: "pointer"
+                  }}
+                  onClick={() => this.props.toggleExpanded(index)}
+                />
               </p>
             </div>
           )}
